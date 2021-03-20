@@ -1,0 +1,84 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  margin: 50px 0 0 50px;
+}
+
+#content {
+  padding: 110px 40px 110px 40px;
+}
+
+.mockup {
+  width: 95%;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+.pad {
+  padding-top: 5%;
+}
+
+.fm {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.btn {
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  padding: 8px 52px 8px 52px;
+  border-radius: 60px;
+  font-size: 1rem;
+  font-weight: 400;
+  border-color: hsl(300, 69%, 71%);
+}
+
+.btn:hover {
+  background-color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+
+.foot {
+  margin: 0;
+}
+
+.attribution {
+  text-align: center;
+}
+
+.social {
+  margin-right: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+.sociald {
+  text-align: right;
+  margin-right: 50px;
+}
+
+.social:hover {
+  color: hsl(300, 69%, 71%);
+}
+
+@media (max-width: 501px) {
+  #content {
+    text-align: center;
+    background-image: url("images/bg-mobile.svg");
+  }
+}
+
+@media (min-width: 502px) {
+  body {
+    background-image: url("images/bg-desktop.svg");
+  }
+}
+
+a:hover {
+  color: hsl(300, 69%, 71%);
+}
